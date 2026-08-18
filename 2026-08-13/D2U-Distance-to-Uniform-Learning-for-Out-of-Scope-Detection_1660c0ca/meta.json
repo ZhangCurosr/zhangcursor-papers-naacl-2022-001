@@ -4,5 +4,10 @@
  "title": "D2U-Distance-to-Uniform-Learning-for-Out-of-Scope-Detection",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41180d73-62cc-4b38-9c8c-75cd16567638.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41180d73-62cc-4b38-9c8c-75cd16567638.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:18",
+  "chunks": 1
+ }
 }

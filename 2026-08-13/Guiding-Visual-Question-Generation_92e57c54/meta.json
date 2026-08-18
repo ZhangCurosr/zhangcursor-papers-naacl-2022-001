@@ -4,5 +4,29 @@
  "title": "Guiding-Visual-Question-Generation",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a8fbd91-8ea3-4809-9f0f-8328a2ac7eac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a8fbd91-8ea3-4809-9f0f-8328a2ac7eac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Question Generation",
+    "Guided Generation",
+    "Gumbel-Softmax",
+    "Discrete Latent Variables",
+    "Multimodal Generation",
+    "VQA"
+   ],
+   "field": "视觉语言生成",
+   "innovations": [
+    "首次探索基于对象标签引导的VQG方法，同时利用回答类别和关键对象双信号",
+    "首个Transformer集合到序列VQG架构，超越ResNet+RNN基线",
+    "首次将Gumbel-Softmax离散采样和变分隐变量模型引入VQG任务"
+   ],
+   "benchmarks": [
+    "VQA v2.0"
+   ]
+  }
+ }
 }

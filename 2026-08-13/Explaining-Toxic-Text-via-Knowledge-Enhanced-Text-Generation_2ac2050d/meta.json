@@ -4,5 +4,30 @@
  "title": "Explaining-Toxic-Text-via-Knowledge-Enhanced-Text-Generation",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c422b8b-3f15-4479-a6f4-0549dc2648e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c422b8b-3f15-4479-a6f4-0549dc2648e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:36:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "toxic text explanation",
+    "knowledge-enhanced generation",
+    "bias detection",
+    "stereotype generation",
+    "MIXGEN",
+    "social bias frames"
+   ],
+   "field": "偏见与毒性文本理解",
+   "innovations": [
+    "提出expert/explicit/implicit三类知识源统一框架用于毒性解释生成",
+    "设计MIXGEN混合模型整合多源知识并验证concatenation方案的有效性",
+    "构建隐式知识抽取流水线将大模型概率偏见转化为可控生成信号"
+   ],
+   "benchmarks": [
+    "SBIC (Social Bias Frames)",
+    "Implicit Hate Corpus"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "KroneckerBERT-Significant-Compression-of-Pre-trained-Languag",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b654c3c5-0997-4ea9-92f9-1365039ffc8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b654c3c5-0997-4ea9-92f9-1365039ffc8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:39:21",
+  "chunks": 1
+ }
 }

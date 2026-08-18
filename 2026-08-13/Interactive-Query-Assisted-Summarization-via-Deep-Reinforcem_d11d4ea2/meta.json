@@ -4,5 +4,32 @@
  "title": "Interactive-Query-Assisted-Summarization-via-Deep-Reinforcem",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b4a81062-adf3-4e62-a3ea-ddf1e9a5a4e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b4a81062-adf3-4e62-a3ea-ddf1e9a5a4e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "交互式摘要",
+    "深度强化学习",
+    "查询导向摘要",
+    "多文档摘要",
+    "建议查询生成",
+    "MMR",
+    "A2C"
+   ],
+   "field": "交互式文本摘要",
+   "innovations": [
+    "双奖励RL机制平衡摘要信息覆盖率与查询响应性",
+    "短语级RL动态建议查询列表生成",
+    "查询聚焦MMR融入交互式摘要架构"
+   ],
+   "benchmarks": [
+    "DUC 2006",
+    "DUC 2007",
+    "UMUX-Lite"
+   ]
+  }
+ }
 }

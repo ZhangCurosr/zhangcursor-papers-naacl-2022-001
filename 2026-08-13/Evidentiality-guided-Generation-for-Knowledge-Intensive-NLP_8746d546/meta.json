@@ -4,5 +4,33 @@
  "title": "Evidentiality-guided-Generation-for-Knowledge-Intensive-NLP",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6d4fe875-342b-4e3a-9cbd-601de5fa92b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6d4fe875-342b-4e3a-9cbd-601de5fa92b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:35:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "evidentiality",
+    "multi-task learning",
+    "open-domain question answering",
+    "fact verification",
+    "knowledge-enhanced dialogue",
+    "silver label mining"
+   ],
+   "field": "知识密集型自然语言处理",
+   "innovations": [
+    "提出证据导向的多任务学习框架，联合生成答案与预测段落证据性",
+    "设计任务无关的留一生成银标挖掘方法，无需额外标注即可获取高质量证据性标签"
+   ],
+   "benchmarks": [
+    "Natural Questions Open",
+    "TriviaQA unfiltered",
+    "FaVIQ Ambig",
+    "FEVER",
+    "Wizard of Wikipedia"
+   ]
+  }
+ }
 }

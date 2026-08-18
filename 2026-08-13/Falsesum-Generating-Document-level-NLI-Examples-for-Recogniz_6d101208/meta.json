@@ -4,5 +4,31 @@
  "title": "Falsesum-Generating-Document-level-NLI-Examples-for-Recogniz",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a427735-29f1-4d5d-98b0-049016b86e0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a427735-29f1-4d5d-98b0-049016b86e0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:36:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "factual inconsistency",
+    "document-level NLI",
+    "controllable text generation",
+    "summarization hallucination",
+    "data augmentation"
+   ],
+   "field": "摘要事实一致性检测",
+   "innovations": [
+    "基于可控生成器的文档级NLI数据自动合成管道",
+    "通过OpenIE span掩码与控制代码区分intrinsic/extrinsic不一致错误类型",
+    "在四个摘要一致性基准上超越FactCC取得当时SOTA（整体74.17）"
+   ],
+   "benchmarks": [
+    "FactCC",
+    "Ranksum",
+    "QAGS",
+    "SummEval"
+   ]
+  }
+ }
 }

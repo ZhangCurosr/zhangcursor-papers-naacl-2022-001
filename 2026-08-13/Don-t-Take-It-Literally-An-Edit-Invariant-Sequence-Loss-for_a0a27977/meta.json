@@ -4,5 +4,33 @@
  "title": "Don-t-Take-It-Literally-An-Edit-Invariant-Sequence-Loss-for",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2d6709d9-bc4e-4da0-9eda-ba626f4edcc3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2d6709d9-bc4e-4da0-9eda-ba626f4edcc3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "序列生成",
+    "编辑不变损失",
+    "EISL",
+    "噪声鲁棒训练",
+    "非自回归生成",
+    "风格迁移",
+    "机器翻译"
+   ],
+   "field": "文本生成",
+   "innovations": [
+    "提出EISL损失，通过n-gram级匹配实现对目标序列编辑/噪声的鲁棒性",
+    "揭示EISL与卷积运算的等价性，实现高效可微计算",
+    "引入Gumbel softmax位置选择机制，避免训练坍塌"
+   ],
+   "benchmarks": [
+    "Multi30k de-en",
+    "WMT18 raw de-en",
+    "Yelp Review sentiment transfer",
+    "WMT14 en-de NAT"
+   ]
+  }
+ }
 }

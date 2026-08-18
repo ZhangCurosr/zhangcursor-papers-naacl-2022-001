@@ -4,5 +4,31 @@
  "title": "End-to-End-Chinese-Speaker-Identification",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d4a169f4-da51-4cef-9c51-7e71880e3d04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d4a169f4-da51-4cef-9c51-7e71880e3d04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:35:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "说话人识别",
+    "端到端方法",
+    "自训练",
+    "机器阅读理解",
+    "中文小说",
+    "span提取"
+   ],
+   "field": "自然语言理解",
+   "innovations": [
+    "将SI重新定义为基于本地上下文的span提取任务，避免pipeline误差传播",
+    "提出持续自训练范式，利用不断变化的未标注小说数据持续学习",
+    "构建迄今最大规模中文SI数据集CSI（66K实例）"
+   ],
+   "benchmarks": [
+    "WP",
+    "JY",
+    "CSI"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "KAT-A-Knowledge-Augmented-Transformer-for-Vision-and-Languag",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b6a4ea86-ebce-4c6d-813f-bcd7a8c2c015.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b6a4ea86-ebce-4c6d-813f-bcd7a8c2c015.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-and-Language",
+    "Knowledge-Augmented",
+    "OK-VQA",
+    "GPT-3",
+    "CLIP",
+    "Multi-modal Reasoning",
+    "Open-Domain VQA"
+   ],
+   "field": "多模态视觉问答与知识增强",
+   "innovations": [
+    "提出双源知识提取机制（CLIP显式检索+GPT-3隐式提示）",
+    "设计端到端编码器-解码器联合推理模块实现异构知识自适应融合",
+    "在OK-VQA上取得54.41%新SOTA，较PICa-Full提升6.41%绝对值"
+   ],
+   "benchmarks": [
+    "OK-VQA"
+   ]
+  }
+ }
 }

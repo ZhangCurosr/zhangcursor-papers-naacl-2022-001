@@ -4,5 +4,10 @@
  "title": "Don-t-sweat-the-small-stuff-classify-the-rest-Sample-Shieldi",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e48d289c-ea08-46dc-ae98-5a9116c10c07.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e48d289c-ea08-46dc-ae98-5a9116c10c07.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:40",
+  "chunks": 1
+ }
 }

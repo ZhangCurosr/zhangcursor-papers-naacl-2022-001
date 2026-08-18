@@ -4,5 +4,36 @@
  "title": "Implicit-N-grams-Induced-by-Recurrence",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77188842-4f2e-4242-8910-36449eeea7e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77188842-4f2e-4242-8910-36449eeea7e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recurrent neural networks",
+    "n-gram representation",
+    "interpretability",
+    "matrix-vector multiplication",
+    "sentiment analysis",
+    "compositional models"
+   ],
+   "field": "序列建模与可解释性",
+   "innovations": [
+    "从理论上证明RNN隐藏状态编码了n-gram组件的线性组合",
+    "提出MVMA模型基于n-gram表示实现与RNN相当的表达能力",
+    "通过极性得分分析揭示gate机制对negation/intensification捕捉的作用"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "AG-news",
+    "IMDB",
+    "SemEval 2010 Task 8",
+    "CoNLL-2003",
+    "PTB",
+    "Wiki2",
+    "Wiki103"
+   ]
+  }
+ }
 }

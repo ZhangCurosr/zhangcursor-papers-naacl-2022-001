@@ -4,5 +4,31 @@
  "title": "Abstraction-not-Memory-BERT-and-the-English-Article-System",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3828fb91-960e-4d89-86d9-4abf43c77d89.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3828fb91-960e-4d89-86d9-4abf43c77d89.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "article prediction",
+    "BERT",
+    "human-model comparison",
+    "zero article",
+    "Matthews correlation coefficient",
+    "inter-annotator agreement",
+    "corpus linguistics"
+   ],
+   "field": "自然语言理解与人机对齐评估",
+   "innovations": [
+    "BERT在英语冠词三分类预测上整体超越人类母语者，尤其在零冠词识别上优势显著",
+    "发现BERT在高/低inter-annotator agreement下呈双模式对齐行为（高agreement对齐人类直觉，低agreement回归语料分布）",
+    "首次将零冠词纳入系统性三分类评估并构建含150k训练/2.5k人工评测的可复现数据集"
+   ],
+   "benchmarks": [
+    "British National Corpus (BNC) derived dataset",
+    "CoNLL-2013/2014 Grammatical Error Correction shared tasks (contextual baseline)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Empathic-Machines-Using-Intermediate-Features-as-Levers-to-E",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:10:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/465cde44-e184-4643-a595-b727f54228e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/465cde44-e184-4643-a595-b727f54228e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "情感TTS",
+    "差值缩放",
+    "VAD情感空间",
+    "韵律控制",
+    "人机对话",
+    "共情计算"
+   ],
+   "field": "情感语音合成与多模态对话",
+   "innovations": [
+    "提出Differential Scaling模块，通过VAD空间中中间特征的差值实现情感韵律解耦控制",
+    "扩展VAD三维情感空间并验证其在情感区分度上的优势",
+    "构建剧场对话+Meisner演员交互的对话级情感TTS评测框架"
+   ],
+   "benchmarks": [
+    "Blizzard 2013",
+    "MSP-Podcast",
+    "FastSpeech2",
+    "FCLtaco2",
+    "MOS评测",
+    "情感识别准确率"
+   ]
+  }
+ }
 }

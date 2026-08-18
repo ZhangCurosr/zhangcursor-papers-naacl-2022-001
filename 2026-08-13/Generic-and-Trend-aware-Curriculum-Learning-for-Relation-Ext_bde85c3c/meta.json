@@ -4,5 +4,32 @@
  "title": "Generic-and-Trend-aware-Curriculum-Learning-for-Relation-Ext",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5f9edb5-b7c7-43d8-9e5f-6f274942def0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5f9edb5-b7c7-43d8-9e5f-6f274942def0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "课程学习",
+    "图神经网络",
+    "关系抽取",
+    "SuperLoss",
+    "Trend-SL",
+    "GTNN",
+    "生物医学NLP"
+   ],
+   "field": "图神经网络与课程学习交叉",
+   "innovations": [
+    "提出Trend-SL框架，将样本级损失趋势纳入课程学习以动态调整难度阈值",
+    "设计GTNN架构在解码层直接融合文本嵌入避免迭代聚合信息损失",
+    "揭示反转动力学规律并用反转率评估课程鲁棒性"
+   ],
+   "benchmarks": [
+    "GDPR",
+    "PGR",
+    "Wikipedia Chameleons"
+   ]
+  }
+ }
 }

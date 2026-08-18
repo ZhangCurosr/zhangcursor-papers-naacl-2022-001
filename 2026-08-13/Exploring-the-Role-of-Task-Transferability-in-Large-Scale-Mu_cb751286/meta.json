@@ -4,5 +4,31 @@
  "title": "Exploring-the-Role-of-Task-Transferability-in-Large-Scale-Mu",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a4996555-0243-40bc-8b66-2e66675b31a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a4996555-0243-40bc-8b66-2e66675b31a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:36:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-task learning",
+    "task transferability",
+    "pre-finetuning",
+    "representation learning",
+    "negative transfer"
+   ],
+   "field": "多任务学习与迁移学习",
+   "innovations": [
+    "系统性解耦多任务规模与任务相关性对下游性能的影响，首次在任务组层面验证 transferability",
+    "证明当目标任务已知时，小规模相关任务子集的预微调可匹敌大规模多任务训练并大幅降低计算成本"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "MRQA",
+    "CONLL-2003",
+    "SQuAD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Event-Schema-Induction-with-Double-Graph-Autoencoders",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1423e8b3-936e-4431-aa32-136cd1feb7d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1423e8b3-936e-4431-aa32-136cd1feb7d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:35:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件schema诱导",
+    "图自编码器",
+    "变分自编码器",
+    "DAG",
+    "事件图谱",
+    "结构生成"
+   ],
+   "field": "事件抽取与知识图谱",
+   "innovations": [
+    "提出双层图自编码器两阶段分解骨架与参数，首次将全局结构感知引入事件schema诱导",
+    "针对DAG结构设计沿拓扑序传播消息的变分图自编码器，引入START/END虚拟节点控制生成"
+   ],
+   "benchmarks": [
+    "General-IED",
+    "Car-IED",
+    "Suicide-IED"
+   ]
+  }
+ }
 }

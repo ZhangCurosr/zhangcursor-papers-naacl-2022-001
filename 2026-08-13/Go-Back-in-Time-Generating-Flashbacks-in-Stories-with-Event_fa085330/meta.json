@@ -4,5 +4,30 @@
  "title": "Go-Back-in-Time-Generating-Flashbacks-in-Stories-with-Event",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7ac6055-4165-4f34-8c30-8fe44d91bd1a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7ac6055-4165-4f34-8c30-8fe44d91bd1a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flashback",
+    "story generation",
+    "temporal prompt",
+    "structured storyline",
+    "reinforcement learning",
+    "event temporal relation",
+    "plan-and-write"
+   ],
+   "field": "叙事生成与事件时序推理",
+   "innovations": [
+    "在结构化故事线中嵌入时序提示（before/after/vague）引导闪回生成",
+    "用RL端到端联合训练故事线和故事模型以缓解训练-推理差距"
+   ],
+   "benchmarks": [
+    "ROCStories",
+    "WritingPrompts"
+   ]
+  }
+ }
 }

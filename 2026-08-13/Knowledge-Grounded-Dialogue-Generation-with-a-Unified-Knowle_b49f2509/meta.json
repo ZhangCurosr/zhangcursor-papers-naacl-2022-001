@@ -4,5 +4,10 @@
  "title": "Knowledge-Grounded-Dialogue-Generation-with-a-Unified-Knowle",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6fd37ca0-6257-4e8a-b035-3e63fccd5056.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6fd37ca0-6257-4e8a-b035-3e63fccd5056.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:39:10",
+  "chunks": 1
+ }
 }

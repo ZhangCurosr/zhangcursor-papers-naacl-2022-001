@@ -4,5 +4,31 @@
  "title": "All-You-May-Need-for-VQA-are-Image-Captions",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e6d0fd1-c1cd-472d-9900-01c49eea741a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e6d0fd1-c1cd-472d-9900-01c49eea741a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VQA",
+    "Zero-shot Learning",
+    "Question Generation",
+    "Synthetic Data",
+    "Vision-Language",
+    "Multimodal Pretraining"
+   ],
+   "field": "视觉问答与多模态预训练",
+   "innovations": [
+    "提出VQ²A方法，通过句法解析+神经QG+QA往返验证自动生成百万级VQA三元组",
+    "零样本VQA达到新SOTA：VQA2.0 61.1% / GQA 52.1%，较WeaQA提升+13~+17pp",
+    "揭示人工VQA训练数据的脆弱性，VQ²A生成数据训练模型跨域鲁棒性更强"
+   ],
+   "benchmarks": [
+    "VQA2.0",
+    "GQA",
+    "OKVQA"
+   ]
+  }
+ }
 }

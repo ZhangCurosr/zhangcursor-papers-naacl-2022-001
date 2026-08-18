@@ -4,5 +4,34 @@
  "title": "Hero-Gang-Neural-Model-For-Named-Entity-Recognition",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61dfc21a-1004-4f75-9703-5897b88ebc00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61dfc21a-1004-4f75-9703-5897b88ebc00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Named Entity Recognition",
+    "Transformer",
+    "Multi-window",
+    "Local Feature Extraction",
+    "Biomedical NER",
+    "Sequence Labeling"
+   ],
+   "field": "命名实体识别",
+   "innovations": [
+    "提出Hero-Gang架构，将Transformer全局编码与多窗口双向循环局部特征提取相结合",
+    "设计MLP-Attention和DOT-Attention两种多窗口注意力融合机制",
+    "零外部资源条件下在6个NER基准数据集上达到SOTA"
+   ],
+   "benchmarks": [
+    "W16",
+    "W17",
+    "ON5E",
+    "BC5-D",
+    "BC2GM",
+    "BC5-C"
+   ]
+  }
+ }
 }

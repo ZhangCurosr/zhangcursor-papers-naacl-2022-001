@@ -4,5 +4,32 @@
  "title": "Gender-Bias-in-Masked-Language-Models-for-Multiple-Languages",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a103b740-d055-4dbe-a285-4a1829119429.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a103b740-d055-4dbe-a285-4a1829119429.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gender Bias",
+    "Masked Language Models",
+    "Multilingual Evaluation",
+    "Parallel Corpora",
+    "Bias Measurement",
+    "Cross-lingual Fairness"
+   ],
+   "field": "多语言自然语言处理与AI公平性",
+   "innovations": [
+    "提出仅依赖英文性别词表和平行语料的MBE跨语言偏见评估方法",
+    "首次系统评估8种非英语MLM的性别偏见并证实普遍性",
+    "通过人工日/俄数据集元评估证明MBE优于机器翻译与模板基线"
+   ],
+   "benchmarks": [
+    "CrowS-Pairs",
+    "StereoSet",
+    "TED2020 v1",
+    "GlobalVoices"
+   ]
+  }
+ }
 }

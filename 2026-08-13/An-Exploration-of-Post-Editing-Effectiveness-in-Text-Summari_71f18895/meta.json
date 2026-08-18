@@ -4,5 +4,30 @@
  "title": "An-Exploration-of-Post-Editing-Effectiveness-in-Text-Summari",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73f53797-97f1-47fc-8cba-1dbab51c8c4b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73f53797-97f1-47fc-8cba-1dbab51c8c4b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-editing",
+    "text summarization",
+    "human-AI collaboration",
+    "Pegasus",
+    "XSum",
+    "Reddit-TIFU"
+   ],
+   "field": "人机协作摘要",
+   "innovations": [
+    "首个72人规模摘要后编辑大规模实证研究",
+    "揭示后编辑效果的条件依赖性（正式/非正式文本差异）",
+    "发现编辑距离与质量解耦及用户策略异质性"
+   ],
+   "benchmarks": [
+    "XSum",
+    "Reddit-TIFU"
+   ]
+  }
+ }
 }

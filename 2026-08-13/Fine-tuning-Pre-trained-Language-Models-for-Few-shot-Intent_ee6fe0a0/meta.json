@@ -4,5 +4,31 @@
  "title": "Fine-tuning-Pre-trained-Language-Models-for-Few-shot-Intent",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a22adb0e-5c19-4f26-bed7-1cadcc31bbb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a22adb0e-5c19-4f26-bed7-1cadcc31bbb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:36:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot intent detection",
+    "pre-trained language models",
+    "isotropization",
+    "contrastive learning",
+    "supervised pre-training",
+    "anisotropy"
+   ],
+   "field": "少样本自然语言理解",
+   "innovations": [
+    "提出监督预训练与各向同性正则化的联合优化框架，首次系统研究少样本意图检测中PLM的各向异性问题",
+    "设计对比学习正则化器（CL-Reg）和相关矩阵正则化器（Cor-Reg），在微调过程中同步增强特征空间各向同性"
+   ],
+   "benchmarks": [
+    "BANKING77",
+    "HINT3",
+    "HWU64",
+    "OOS"
+   ]
+  }
+ }
 }

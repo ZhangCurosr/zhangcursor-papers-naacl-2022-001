@@ -4,5 +4,31 @@
  "title": "Even-the-Simplest-Baseline-Needs-Careful-Re-investigation-A",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5c65563d-ead9-4b7d-8918-c6e43aa43c95.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5c65563d-ead9-4b7d-8918-c6e43aa43c95.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:35:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "极端多标签文本分类",
+    "XML-CNN",
+    "模型复现",
+    "动态最大池化",
+    "基线验证"
+   ],
+   "field": "文本分类与信息检索",
+   "innovations": [
+    "发现XML-CNN实现中存在卷积维度和动态池化的两个bug",
+    "证明Kim-CNN作为XMTC基线的竞争力",
+    "建议简化版XML-CNN作为新基线"
+   ],
+   "benchmarks": [
+    "EUR-Lex",
+    "Wiki10-31K",
+    "AmazonCat-13K",
+    "Amazon-670K"
+   ]
+  }
+ }
 }

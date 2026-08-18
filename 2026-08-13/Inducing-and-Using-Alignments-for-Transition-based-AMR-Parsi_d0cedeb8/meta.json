@@ -4,5 +4,32 @@
  "title": "Inducing-and-Using-Alignments-for-Transition-based-AMR-Parsi",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:10:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/519ffae7-036a-4585-9966-73482fe27093.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/519ffae7-036a-4585-9966-73482fe27093.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AMR parsing",
+    "transition-based parsing",
+    "neural alignment",
+    "posterior regularization",
+    "importance sampling",
+    "structured prediction"
+   ],
+   "field": "语义解析",
+   "innovations": [
+    "提出端到端神经AMR对齐器替代复杂规则管道",
+    "将后验正则化和重要性采样引入AMR解析器训练以利用对齐不确定性",
+    "Gold-only训练无需束搜索即匹敌银数据SOTA性能"
+   ],
+   "benchmarks": [
+    "AMR2.0",
+    "AMR3.0",
+    "Smatch",
+    "permissive alignment F1"
+   ]
+  }
+ }
 }

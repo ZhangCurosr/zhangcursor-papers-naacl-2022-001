@@ -4,5 +4,31 @@
  "title": "GlobEnc-Quantifying-Global-Token-Attribution-by-Incorporatin",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7160aa3-eafb-4aa8-9320-bbe85a8c2735.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7160aa3-eafb-4aa8-9320-bbe85a8c2735.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer Interpretability",
+    "Token Attribution",
+    "Explainable AI",
+    "Attention Mechanism",
+    "Layer Normalization",
+    "Rollout Aggregation"
+   ],
+   "field": "Natural Language Processing (NLP) Explainability",
+   "innovations": [
+    "Proposed GlobEnc to quantify global token attribution by incorporating the entire encoder layer components",
+    "Revealed that coupling both Layer Normalizations (LN1 and LN2) is crucial due to their counteracting outlier weights",
+    "Demonstrated that norm-based methods with dynamic residual connections significantly outperform weight-based attention analysis"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "MNLI",
+    "HateXplain"
+   ]
+  }
+ }
 }

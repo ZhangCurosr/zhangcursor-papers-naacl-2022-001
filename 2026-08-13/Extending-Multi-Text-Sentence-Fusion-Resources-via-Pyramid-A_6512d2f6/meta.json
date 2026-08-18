@@ -4,5 +4,31 @@
  "title": "Extending-Multi-Text-Sentence-Fusion-Resources-via-Pyramid-A",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efe59f69-a00e-4a65-a8e5-357a385c1381.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efe59f69-a00e-4a65-a8e5-357a385c1381.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:36:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sentence fusion",
+    "multi-document summarization",
+    "Pyramid method",
+    "dataset extension",
+    "BART",
+    "ROUGE"
+   ],
+   "field": "多文档摘要与文本融合",
+   "innovations": [
+    "将PYRFUS数据集扩展至约4倍规模（1705→7505）并补充源文档句子",
+    "系统性放宽Pyramid数据预处理过滤条件回收4800+条有效实例",
+    "对18%多标签聚类进行人工重标注合并为单一融合目标"
+   ],
+   "benchmarks": [
+    "DUC 2005-2007",
+    "TAC 2008-2011",
+    "DISPARATE"
+   ]
+  }
+ }
 }

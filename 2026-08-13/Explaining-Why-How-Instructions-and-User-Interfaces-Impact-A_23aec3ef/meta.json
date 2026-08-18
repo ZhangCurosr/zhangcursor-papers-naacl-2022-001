@@ -4,5 +4,26 @@
  "title": "Explaining-Why-How-Instructions-and-User-Interfaces-Impact-A",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f4ca274-37e9-4e70-b1c3-19508a23b721.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f4ca274-37e9-4e70-b1c3-19508a23b721.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:36:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "rationale annotation",
+    "explainable NLP",
+    "human-computer interaction",
+    "data labeling",
+    "sentiment analysis",
+    "user study"
+   ],
+   "field": "可解释自然语言处理",
+   "innovations": [
+    "首次系统研究指令和界面交互对rationale选择的影响",
+    "发现界面affordance（拖拽功能）对rationale特征的影响远超指令措辞",
+    "提出并验证双边rationale概念，揭示语言中的对立信号"
+   ]
+  }
+ }
 }

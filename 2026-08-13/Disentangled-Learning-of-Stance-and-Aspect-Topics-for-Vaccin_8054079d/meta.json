@@ -4,5 +4,30 @@
  "title": "Disentangled-Learning-of-Stance-and-Aspect-Topics-for-Vaccin",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e795f021-1768-48ef-a3ed-043d223e7d44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e795f021-1768-48ef-a3ed-043d223e7d44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vaccine attitude detection",
+    "disentangled representation learning",
+    "semi-supervised learning",
+    "aspect-based sentiment analysis",
+    "variational autoencoder",
+    "stance classification"
+   ],
+   "field": "社会计算与立场检测",
+   "innovations": [
+    "提出VADET半监督框架，通过VAE+ICA思想在少量标注下解耦立场与方面隐变量",
+    "构建条件化因子高斯先验实现隐变量功能分离",
+    "联合评估分类性能与聚类语义连贯性验证解耦表征质量"
+   ],
+   "benchmarks": [
+    "VAD",
+    "VC (Vaccination Corpus)"
+   ]
+  }
+ }
 }

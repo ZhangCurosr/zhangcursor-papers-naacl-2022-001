@@ -4,5 +4,30 @@
  "title": "Frustratingly-Easy-System-Combination-for-Grammatical-Error",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/52ef17c8-2446-4f57-9b1e-02682d5f5291.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/52ef17c8-2446-4f57-9b1e-02682d5f5291.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:36:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语法错误校正",
+    "系统组合",
+    "编辑类型",
+    "逻辑回归",
+    "模型集成",
+    "自然语言处理"
+   ],
+   "field": "语法错误校正",
+   "innovations": [
+    "提出Edit-based System Combination (ESC)方法，将GEC系统组合形式化为基于编辑类型的二元分类问题",
+    "使用简单的逻辑回归模型，仅依赖编辑类型和出现情况特征，实现高效、通用的多模型组合",
+    "在BEA-2019和CoNLL-2014基准上取得显著性能提升，超越所有先前SOTA单模型及组合方法"
+   ],
+   "benchmarks": [
+    "BEA-2019",
+    "CoNLL-2014"
+   ]
+  }
+ }
 }

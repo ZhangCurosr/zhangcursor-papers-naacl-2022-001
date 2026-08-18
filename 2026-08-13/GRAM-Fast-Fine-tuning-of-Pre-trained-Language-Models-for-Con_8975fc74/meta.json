@@ -4,5 +4,33 @@
  "title": "GRAM-Fast-Fine-tuning-of-Pre-trained-Language-Models-for-Con",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f202bab-c230-4fbb-bf61-6abf43fa31c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f202bab-c230-4fbb-bf61-6abf43fa31c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "协同过滤",
+    "预训练语言模型",
+    "内容编码",
+    "高效微调",
+    "知识追踪",
+    "新闻推荐"
+   ],
+   "field": "推荐系统高效训练",
+   "innovations": [
+    "提出梯度累积方法GRAM替代CCF中PLM的端到端训练",
+    "Single-step GRAM理论等价于E2E训练",
+    "Multi-step GRAM支持更大batch与更低显存占用"
+   ],
+   "benchmarks": [
+    "TOEIC",
+    "POJ",
+    "Duolingo Spanish",
+    "Duolingo French",
+    "MIND"
+   ]
+  }
+ }
 }

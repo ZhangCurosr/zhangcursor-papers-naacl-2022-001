@@ -4,5 +4,10 @@
  "title": "Fuse-It-More-Deeply-A-Variational-Transformer-with-Layer-Wis",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cf1cf59a-d17a-489f-99c3-5cc9c1af105f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cf1cf59a-d17a-489f-99c3-5cc9c1af105f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:16",
+  "chunks": 1
+ }
 }

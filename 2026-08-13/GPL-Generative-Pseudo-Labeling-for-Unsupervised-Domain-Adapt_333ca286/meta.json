@@ -4,5 +4,36 @@
  "title": "GPL-Generative-Pseudo-Labeling-for-Unsupervised-Domain-Adapt",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d6ad0ec8-f7b8-4d3b-bb2c-d4376f198187.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d6ad0ec8-f7b8-4d3b-bb2c-d4376f198187.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "密集检索",
+    "领域适应",
+    "生成伪标签",
+    "无监督学习",
+    "交叉编码器",
+    "BeIR"
+   ],
+   "field": "信息检索与领域适应",
+   "innovations": [
+    "提出GPL方法结合查询生成与cross-encoder伪标签实现密集检索领域适应",
+    "设计MarginMSE损失实现细粒度相关性监督",
+    "系统评估预训练方法在检索领域适应中的作用并发现TSDAE最优"
+   ],
+   "benchmarks": [
+    "BeIR",
+    "MS MARCO",
+    "FiQA",
+    "SciFact",
+    "BioASQ",
+    "TREC-COVID",
+    "CQADupStack",
+    "Robust04"
+   ]
+  }
+ }
 }
