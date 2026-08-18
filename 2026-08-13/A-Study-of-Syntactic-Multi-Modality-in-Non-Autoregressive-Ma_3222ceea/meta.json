@@ -4,5 +4,32 @@
  "title": "A-Study-of-Syntactic-Multi-Modality-in-Non-Autoregressive-Ma",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:11:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/996a4183-da56-4cad-ac2d-74df6779f365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/996a4183-da56-4cad-ac2d-74df6779f365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:49:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非自回归机器翻译",
+    "句法多模态",
+    "CTC损失",
+    "OAXE损失",
+    "CoCO损失",
+    "损失函数设计"
+   ],
+   "field": "神经机器翻译",
+   "innovations": [
+    "系统分解句法多模态为长/短距离两类并分析不同损失函数的适用性",
+    "提出CoCO损失结合CTC和OAXE优势",
+    "提供基于目标语言词序特性的损失函数选型指南"
+   ],
+   "benchmarks": [
+    "WMT14 EN-DE",
+    "WMT17 EN-FI",
+    "WMT14 EN-RU",
+    "WMT16 EN-RO"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "A-Shoulder-to-Cry-on-Towards-A-Motivational-Virtual-Assistan",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f75e12f2-6cbc-45bf-9a83-1c80e4d36cb1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f75e12f2-6cbc-45bf-9a83-1c80e4d36cb1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:49:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mental health",
+    "virtual assistant",
+    "dialogue generation",
+    "reinforcement learning",
+    "sentiment-aware generation",
+    "mental illness classification"
+   ],
+   "field": "心理健康对话生成",
+   "innovations": [
+    "首个结合精神疾病分类与激励对话生成的端到端虚拟助手系统",
+    "基于BERT+双注意力机制的精神疾病分类框架",
+    "融合BLEU/ROUGE/情感三维度奖励的RL激励对话生成方法"
+   ],
+   "benchmarks": [
+    "MotiVAte",
+    "BLEU-1",
+    "ROUGE-L",
+    "Perplexity",
+    "SST-2情感分类"
+   ]
+  }
+ }
 }

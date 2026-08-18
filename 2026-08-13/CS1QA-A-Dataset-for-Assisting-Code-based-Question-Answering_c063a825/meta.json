@@ -4,5 +4,32 @@
  "title": "CS1QA-A-Dataset-for-Assisting-Code-based-Question-Answering",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20df3d8e-3829-40fc-9ed3-0e6f5f832486.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20df3d8e-3829-40fc-9ed3-0e6f5f832486.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:53:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码问答",
+    "编程教育",
+    "代码理解",
+    "数据集",
+    "密集检索",
+    "Span Selection",
+    "教学NLP"
+   ],
+   "field": "代码理解与问答",
+   "innovations": [
+    "构建首个来源于真实课堂学生-TA对话的代码问答数据集CS1QA，附带问题类型和相关代码行标注",
+    "定义代码行选择任务并将HotpotQA的EM/F1度量迁移至代码定位场景",
+    "揭示CodeBERT等预训练模型在含错误代码的教育场景问答任务上存在显著性能不足"
+   ],
+   "benchmarks": [
+    "Type Classification (9-class)",
+    "Code Line Selection (EM + Line F1)",
+    "Answer Retrieval (BLEU-1)"
+   ]
+  }
+ }
 }

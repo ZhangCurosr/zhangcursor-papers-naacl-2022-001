@@ -4,5 +4,26 @@
  "title": "Building-Multilingual-Machine-Translation-Systems-That-Serve",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4ba8ec22-902a-4681-b0af-ce1f00cf803d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4ba8ec22-902a-4681-b0af-ce1f00cf803d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:53:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multilingual Neural Machine Translation",
+    "Two-Stage Training",
+    "Many-to-Many Pretraining",
+    "Knowledge Distillation",
+    "Multi-centric Pretraining",
+    "Low-Resource MT"
+   ],
+   "field": "多语言机器翻译",
+   "innovations": [
+    "提出全量多对多预训练与定向很多ToOne微调相结合的两阶段训练策略，解决任意X-Y翻译方向的泛化瓶颈。",
+    "验证多中心（Multi-centric）预训练比单一英语中心预训练能学到更易迁移的跨语言表征。",
+    "结合深浅解码器架构与序列级知识蒸馏，在保留多语言质量的同时实现近2倍推理加速与75%解码成本节约。"
+   ]
+  }
+ }
 }

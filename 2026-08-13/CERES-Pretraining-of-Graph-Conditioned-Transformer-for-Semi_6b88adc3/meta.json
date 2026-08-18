@@ -4,5 +4,31 @@
  "title": "CERES-Pretraining-of-Graph-Conditioned-Transformer-for-Semi",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3de9e274-68a7-4629-bc0a-33acd9dec92a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3de9e274-68a7-4629-bc0a-33acd9dec92a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semi-structured session",
+    "pretraining",
+    "graph-conditioned transformer",
+    "masked language modeling",
+    "e-commerce recommendation",
+    "session encoding"
+   ],
+   "field": "会话推荐与预训练",
+   "innovations": [
+    "提出图条件掩码语言建模（GMLM）联合学习项目内语义与项目间关系",
+    "设计跨注意力Transformer通过latent conditioning tokens传播会话级上下文",
+    "位置感知GNN将时序位置嵌入图节点以编码会话图结构"
+   ],
+   "benchmarks": [
+    "Product Search",
+    "Query Search",
+    "Entity Linking"
+   ]
+  }
+ }
 }

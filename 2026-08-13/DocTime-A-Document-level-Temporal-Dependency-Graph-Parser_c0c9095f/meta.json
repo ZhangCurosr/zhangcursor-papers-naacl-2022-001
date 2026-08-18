@@ -4,5 +4,26 @@
  "title": "DocTime-A-Document-level-Temporal-Dependency-Graph-Parser",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 07:10:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/136b45a7-76ae-4511-be9a-2e60d740bba4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/136b45a7-76ae-4511-be9a-2e60d740bba4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Temporal Dependency Graph Parsing",
+    "Document-level Temporal Reasoning",
+    "Graph Neural Networks",
+    "Temporal NLI",
+    "Time-sensitive Question Answering",
+    "Contractual Text Analysis"
+   ],
+   "field": "Temporal Information Extraction",
+   "innovations": [
+    "Proposed DocTime parser with path prediction loss for multi-hop temporal dependency modeling",
+    "Introduced Time-Transformer to inject TDG priors into Transformer self-attention via k-hop masks",
+    "Released ContractTDG, the first document-level TDG dataset for contractual texts"
+   ]
+  }
+ }
 }

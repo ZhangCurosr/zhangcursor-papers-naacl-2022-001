@@ -4,5 +4,29 @@
  "title": "BLONDE-An-Automatic-Evaluation-Metric-for-Document-level-Mac",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c8f1d788-61cc-4298-92b5-949c7a08241e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c8f1d788-61cc-4298-92b5-949c7a08241e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "document-level MT",
+    "automatic evaluation metric",
+    "discourse coherence",
+    "machine translation evaluation",
+    "BLONDE",
+    "parallel corpus"
+   ],
+   "field": "机器翻译评测",
+   "innovations": [
+    "提出 BLONDE 自动指标，将篇章现象（实体/时态/代词/话语标记）与 n-gram 统一建模为加权 F1 相似度度量",
+    "构建大规模中文-英文段落级平行语料 BWB（19.6 万文档/958 万句对）",
+    "提出可融合人工标注的 BLOND+ 扩展，显著提升与人类判断的相关性"
+   ],
+   "benchmarks": [
+    "BWB"
+   ]
+  }
+ }
 }

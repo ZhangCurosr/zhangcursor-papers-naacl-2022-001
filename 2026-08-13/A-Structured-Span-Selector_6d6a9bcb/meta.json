@@ -4,5 +4,29 @@
  "title": "A-Structured-Span-Selector",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5183f7b-93a3-48d5-89f7-d54b1bfa31d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5183f7b-93a3-48d5-89f7-d54b1bfa31d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:49:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured span selection",
+    "weighted context-free grammar",
+    "coreference resolution",
+    "semantic role labeling",
+    "partial annotation"
+   ],
+   "field": "句法感知的序列标注",
+   "innovations": [
+    "提出基于WCFG的结构化跨度选择器替代贪心枚举",
+    "设计可微边际似然训练框架处理部分标注"
+   ],
+   "benchmarks": [
+    "OntoNotes",
+    "LitBank",
+    "CoNLL-2012 SRL"
+   ]
+  }
+ }
 }

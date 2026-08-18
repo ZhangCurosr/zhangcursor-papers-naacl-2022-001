@@ -4,5 +4,31 @@
  "title": "Building-a-Role-Specified-Open-Domain-Dialogue-System-Levera",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5b0748d-8ea1-455f-9d9f-9c0b80283c88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5b0748d-8ea1-455f-9d9f-9c0b80283c88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-domain dialogue",
+    "role specified dialogue",
+    "in-context learning",
+    "unlikelihood training",
+    "synthetic dialogue generation",
+    "retrieval-based dialogue"
+   ],
+   "field": "开放域对话系统",
+   "innovations": [
+    "首次将in-context few-shot learning用于对话数据构建，大幅降低角色约束数据集制作成本",
+    "提出MLE+UL联合训练方法，通过正负样本同时优化实现角色规范约束",
+    "设计Retrieve-fail-Generate流水线架构，在响应选择与生成间智能切换"
+   ],
+   "benchmarks": [
+    "SSA",
+    "Hits@1/K",
+    "Human Interactive Error Rate"
+   ]
+  }
+ }
 }

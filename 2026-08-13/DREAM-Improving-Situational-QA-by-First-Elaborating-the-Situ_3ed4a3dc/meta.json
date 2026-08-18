@@ -4,5 +4,32 @@
  "title": "DREAM-Improving-Situational-QA-by-First-Elaborating-the-Situ",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f87e1ae-f7b0-450e-b897-e0cae9a96172.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f87e1ae-f7b0-450e-b897-e0cae9a96172.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Scene Elaboration",
+    "Situational QA",
+    "Commonsense Reasoning",
+    "Prompting",
+    "Social Norm",
+    "Zero-shot QA",
+    "T5"
+   ],
+   "field": "情境化问答与常识推理",
+   "innovations": [
+    "提出四维结构化的场景描述（M/E/ROT/Con）作为中间推理上下文",
+    "基于远程监督常识资源训练 DREAM 生成高质量场景描述",
+    "验证场景描述作为额外输入可提升下游 QA 且优于直接微调"
+   ],
+   "benchmarks": [
+    "ETHICS-CS",
+    "CODAH",
+    "Social IQA"
+   ]
+  }
+ }
 }

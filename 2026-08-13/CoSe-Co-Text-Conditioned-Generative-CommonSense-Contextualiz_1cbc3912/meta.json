@@ -4,5 +4,33 @@
  "title": "CoSe-Co-Text-Conditioned-Generative-CommonSense-Contextualiz",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3189835f-70df-4586-911a-e1f3cc0bf2fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3189835f-70df-4586-911a-e1f3cc0bf2fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "common sense reasoning",
+    "knowledge graphs",
+    "generative language models",
+    "question answering",
+    "commonsense knowledge",
+    "sentence-path pairing"
+   ],
+   "field": "常识推理与知识增强语言模型",
+   "innovations": [
+    "提出以句子为条件的生成式常识推理框架CoSe-Co，解决train-inference输入类型不匹配问题",
+    "构建首个Sentence-Path配对数据集（290K对），填补无现成数据的空白",
+    "实体掩码训练策略使模型更好地捕获上下文，生成包含23%新颖实体的多样路径"
+   ],
+   "benchmarks": [
+    "CommonsenseQA",
+    "ARC",
+    "QASC",
+    "OBQA",
+    "MRPC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Diversifying-Neural-Dialogue-Generation-via-Negative-Distill",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/23423405-d554-499d-9755-80413e6e77fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/23423405-d554-499d-9755-80413e6e77fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "negative distillation",
+    "dialogue generation",
+    "response diversity",
+    "knowledge distillation",
+    "many-to-one phenomenon",
+    "negative training"
+   ],
+   "field": "对话生成中的多样性增强",
+   "innovations": [
+    "提出负蒸馏范式，利用负教师模型生成查询特定的通用回复作为负候选",
+    "设计多层负蒸馏目标，结合预测层软logits与中间层隐藏状态/注意力矩阵的负知识蒸馏",
+    "引入渐进式损失平衡策略，动态调节监督学习与负蒸馏的权重"
+   ],
+   "benchmarks": [
+    "DailyDialog",
+    "OpenSubtitles"
+   ]
+  }
+ }
 }

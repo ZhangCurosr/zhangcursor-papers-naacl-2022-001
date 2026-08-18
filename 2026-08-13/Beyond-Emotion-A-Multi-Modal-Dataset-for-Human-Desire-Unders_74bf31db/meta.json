@@ -4,5 +4,32 @@
  "title": "Beyond-Emotion-A-Multi-Modal-Dataset-for-Human-Desire-Unders",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7c631ca-9962-4046-8f42-d3eeade4d229.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7c631ca-9962-4046-8f42-d3eeade4d229.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态情感分析",
+    "欲望理解",
+    "多任务学习",
+    "MSED数据集",
+    "多模态融合",
+    "情感计算"
+   ],
+   "field": "多模态情感与欲望分析",
+   "innovations": [
+    "首个同时标注欲望、情感、情绪的三任务多模态数据集MSED",
+    "基于16种基本欲望理论的6类欲望细粒度分类体系",
+    "六种任务推断序列实验首次量化欲望-情感-情绪间依赖关系"
+   ],
+   "benchmarks": [
+    "MSED",
+    "MOSEI",
+    "MELD",
+    "CH-SIMS"
+   ]
+  }
+ }
 }

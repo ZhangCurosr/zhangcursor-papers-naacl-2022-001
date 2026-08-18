@@ -4,5 +4,32 @@
  "title": "Automatic-Correction-of-Human-Translations",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f40fc99-9912-43dc-b427-e2868698b070.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f40fc99-9912-43dc-b427-e2868698b070.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "翻译错误纠正",
+    "TEC",
+    "自动后期编辑",
+    "机器翻译",
+    "人机协作",
+    "合成数据预训练"
+   ],
+   "field": "机器翻译后编辑与人机协同",
+   "innovations": [
+    "提出TEC任务并构建首个真实人工翻译纠错基准ACED",
+    "揭示人工翻译错误与机器翻译错误在分布上的本质差异",
+    "基于合成人工错误的预训练策略显著提升TEC性能"
+   ],
+   "benchmarks": [
+    "ACED-ASICS",
+    "ACED-EMERSON",
+    "ACED-DIGITALOCEAN",
+    "WMT 2021 APE dev set"
+   ]
+  }
+ }
 }

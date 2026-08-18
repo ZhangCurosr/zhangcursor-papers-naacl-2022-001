@@ -4,5 +4,35 @@
  "title": "Batch-Softmax-Contrastive-Loss-for-Pairwise-Sentence-Scoring",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/739baf61-a9cc-492c-bd90-1f81f6f4823d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/739baf61-a9cc-492c-bd90-1f81f6f4823d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对比学习",
+    "句子嵌入",
+    "Batch-Softmax Contrastive Loss",
+    "句子对评分",
+    "NLP",
+    "fine-tuning"
+   ],
+   "field": "句子表示学习",
+   "innovations": [
+    "将BSC损失系统引入句子对评分任务并改进对称化设计",
+    "提出基于示例和基于词的多尺度数据重排策略以隐式挖掘hard negatives",
+    "设计Combo Loss联合BSC与MSE以兼顾排序与绝对相似度校准"
+   ],
+   "benchmarks": [
+    "Antique",
+    "CQA-A",
+    "CQA-B",
+    "PFCC-S",
+    "MRPC",
+    "QQP",
+    "STSb"
+   ]
+  }
+ }
 }

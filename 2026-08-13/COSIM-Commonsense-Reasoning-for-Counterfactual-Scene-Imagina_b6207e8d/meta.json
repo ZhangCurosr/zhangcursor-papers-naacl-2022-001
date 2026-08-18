@@ -4,5 +4,30 @@
  "title": "COSIM-Commonsense-Reasoning-for-Counterfactual-Scene-Imagina",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:12:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a06cded-7df0-47d8-b51a-b814dcb61436.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a06cded-7df0-47d8-b51a-b814dcb61436.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:53:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "反事实推理",
+    "常识推理",
+    "多模态学习",
+    "视觉问答",
+    "场景想象",
+    "数据集",
+    "LXMERT"
+   ],
+   "field": "视觉-语言多模态推理",
+   "innovations": [
+    "提出首个面向真实场景反事实常识推理的多模态数据集COSIM（3.5K实例）",
+    "设计三阶段数据采集与HAMLET对抗式干扰项验证流程",
+    "揭示移除类场景变化推理难度高于添加类，并提供详细人类-模型性能差距分析"
+   ],
+   "benchmarks": [
+    "COSIM"
+   ]
+  }
+ }
 }

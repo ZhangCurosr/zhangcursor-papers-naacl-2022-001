@@ -4,5 +4,31 @@
  "title": "DEGREE-A-Data-Efficient-Generation-Based-Event-Extraction-Mo",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3fa9361-3bdd-4b35-b83a-3c25c70bb118.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3fa9361-3bdd-4b35-b83a-3c25c70bb118.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Event Extraction",
+    "Low-resource",
+    "Generative Model",
+    "Prompt Learning",
+    "End-to-end",
+    "Data Efficiency"
+   ],
+   "field": "低资源事件提取",
+   "innovations": [
+    "将事件提取转化为条件生成问题，利用自然语言提示整合标签语义和弱监督信号",
+    "端到端联合预测触发词和论元，在低资源下比流水线方法更有效",
+    "通过结构化模板设计，使生成输出成为可直接解析的自然句子"
+   ],
+   "benchmarks": [
+    "ACE05-E",
+    "ACE05-E+",
+    "ERE-EN"
+   ]
+  }
+ }
 }

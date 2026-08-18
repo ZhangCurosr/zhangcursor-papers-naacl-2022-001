@@ -4,5 +4,30 @@
  "title": "CompactIE-Compact-Facts-in-Open-Information-Extraction",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bbd4cb8a-4040-4cba-9eba-3c5b8d905967.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bbd4cb8a-4040-4cba-9eba-3c5b8d905967.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放信息抽取",
+    "OpenIE",
+    "紧凑三元组",
+    "表填充",
+    "信息抽取"
+   ],
+   "field": "开放信息抽取与知识抽取",
+   "innovations": [
+    "两阶段流水线成分抽取-链接架构，保证三元组紧凑与成分共享",
+    "新型表填充模式联合标注成分类型与关系，提升上下文依赖捕获",
+    "三重整合训练约束（对称、蕴含、三重组）引导成分边界与合法性"
+   ],
+   "benchmarks": [
+    "Wire57",
+    "CaRB",
+    "BenchIE"
+   ]
+  }
+ }
 }

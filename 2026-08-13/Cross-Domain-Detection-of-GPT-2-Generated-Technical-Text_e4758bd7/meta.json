@@ -4,5 +4,31 @@
  "title": "Cross-Domain-Detection-of-GPT-2-Generated-Technical-Text",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 07:11:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/28baadb5-9797-483d-809a-359a12cc638e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/28baadb5-9797-483d-809a-359a12cc638e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "synthetic text detection",
+    "cross-domain adaptation",
+    "GPT-2",
+    "technical text",
+    "document tampering",
+    "few-shot learning"
+   ],
+   "field": "合成文本检测与可解释AI",
+   "innovations": [
+    "证明了仅需数百个SME标注样本即可实现跨技术领域（物理到生物医学）的高精度GPT-2生成文本检测",
+    "提出了代理数据与SME标注数据结合的两阶段任务微调框架以缓解领域偏移",
+    "系统评估了段落级检测器在多种文档篡改威胁模型下的聚合策略与性能边界"
+   ],
+   "benchmarks": [
+    "Semantic Scholar Open Research Corpus (生物医学摘要)",
+    "CORE dataset (物理/生物医学摘要)",
+    "S2ORC (生物医学全文)"
+   ]
+  }
+ }
 }

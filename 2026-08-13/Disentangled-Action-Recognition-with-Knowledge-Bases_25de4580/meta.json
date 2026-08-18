@@ -4,5 +4,30 @@
  "title": "Disentangled-Action-Recognition-with-Knowledge-Bases",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:55:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5432c974-b789-49ef-95c2-9f36bb972231.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5432c974-b789-49ef-95c2-9f36bb972231.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot compositional action recognition",
+    "disentangled representation",
+    "knowledge graph",
+    "affordance prior",
+    "macro open world evaluation",
+    "Epic-Kitchen benchmark"
+   ],
+   "field": "组合动作识别与零样本学习",
+   "innovations": [
+    "因子化解耦动词/名词特征并将 KG 节点复杂度从二次降至线性",
+    "利用外部语料学习物性先验约束动词-名词组合合理性",
+    "提出宏开放世界评估协议与基于 Epic-Kitchen 的大规模基准"
+   ],
+   "benchmarks": [
+    "Epic-Kitchen v2",
+    "Charades"
+   ]
+  }
+ }
 }

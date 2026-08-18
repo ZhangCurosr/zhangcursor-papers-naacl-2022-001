@@ -4,5 +4,31 @@
  "title": "Bridging-the-Gap-between-Language-Models-and-Cross-Lingual-S",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/be521719-f7b3-4823-bc2a-d6f6ca4d97e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/be521719-f7b3-4823-bc2a-d6f6ca4d97e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言序列标注",
+    "预训练-微调对齐",
+    "对比学习",
+    "少样本学习",
+    "Span Extraction"
+   ],
+   "field": "跨语言自然语言理解",
+   "innovations": [
+    "CLISM：通过跨语言平行语料构建掩码span问答对，桥接预训练与微调目标差距",
+    "CACR：三重视角对比一致性正则化，学习噪声不变的跨语言对齐表征",
+    "仅需1M平行数据（4语言）即超越130M数据（94语言）的SOTA模型"
+   ],
+   "benchmarks": [
+    "MLQA",
+    "XQUAD",
+    "CoNLL",
+    "WikiAnn"
+   ]
+  }
+ }
 }

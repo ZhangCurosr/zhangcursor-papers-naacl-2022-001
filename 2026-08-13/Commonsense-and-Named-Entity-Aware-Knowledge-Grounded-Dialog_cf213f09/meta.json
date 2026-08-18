@@ -4,5 +4,29 @@
  "title": "Commonsense-and-Named-Entity-Aware-Knowledge-Grounded-Dialog",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/54a25966-1b5e-42ab-a666-1949c4a06b9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/54a25966-1b5e-42ab-a666-1949c4a06b9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge-grounded dialogue",
+    "commonsense knowledge",
+    "named entity",
+    "co-reference resolution",
+    "multi-hop attention",
+    "dialogue generation"
+   ],
+   "field": "知识 grounded 对话生成",
+   "innovations": [
+    "通过共指消解构建命名实体感知三元组增强常识知识",
+    "多跳注意力迭代推理多源异构知识融合对话生成"
+   ],
+   "benchmarks": [
+    "Wizard of Wikipedia",
+    "CMU_DoG"
+   ]
+  }
+ }
 }

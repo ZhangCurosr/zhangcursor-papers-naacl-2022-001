@@ -4,5 +4,10 @@
  "title": "Aspect-Is-Not-You-Need-No-aspect-Differential-Sentiment-Fram",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea1129ef-919f-4c0e-817c-a168fd96a165.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea1129ef-919f-4c0e-817c-a168fd96a165.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:52:29",
+  "chunks": 1
+ }
 }

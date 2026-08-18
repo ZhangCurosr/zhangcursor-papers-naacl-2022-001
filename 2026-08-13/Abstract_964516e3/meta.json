@@ -4,5 +4,30 @@
  "title": "Abstract",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b88c2ca7-0d21-4461-8f19-eff1ccc6c550.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b88c2ca7-0d21-4461-8f19-eff1ccc6c550.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:51:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "User Feedback",
+    "Noisy Labels",
+    "Complementary Labels",
+    "Noise-Robust Learning",
+    "Self-Training"
+   ],
+   "field": "联邦学习与弱监督学习",
+   "innovations": [
+    "提出基于正负用户反馈的联邦学习框架，消除边缘端标注依赖",
+    "构建双参数(γ,δ)噪声模型并通过MTurk实证校准用户反馈行为",
+    "将互补标签学习与NCE+RCE噪声鲁棒损失引入联邦训练以缓解反馈噪声"
+   ],
+   "benchmarks": [
+    "SST2",
+    "20news"
+   ]
+  }
+ }
 }

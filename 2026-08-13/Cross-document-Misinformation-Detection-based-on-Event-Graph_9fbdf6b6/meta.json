@@ -4,5 +4,30 @@
  "title": "Cross-document-Misinformation-Detection-based-on-Event-Graph",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:55:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f83948e-91ff-42e2-847c-9fde05f039eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f83948e-91ff-42e2-847c-9fde05f039eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "虚假信息检测",
+    "跨文档推理",
+    "事件知识图谱",
+    "图神经网络",
+    "细粒度检测"
+   ],
+   "field": "虚假信息检测与可信NLP",
+   "innovations": [
+    "提出跨文档虚假信息检测新任务，在文档级和事件级两层次进行检测",
+    "通过事件共指解析构建异构知识图谱，利用GNN进行跨文档推理",
+    "设计级联检测框架，将事件级检测结果注入文档级检测器"
+   ],
+   "benchmarks": [
+    "IED",
+    "TL17",
+    "Crisis"
+   ]
+  }
+ }
 }

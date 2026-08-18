@@ -4,5 +4,30 @@
  "title": "Do-Deep-Neural-Nets-Display-Human-like-Attention-in-Short-An",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0fca3207-8ab1-48a3-817b-3d436721a735.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0fca3207-8ab1-48a3-817b-3d436721a735.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动短答案评分",
+    "可解释AI",
+    "注意力机制",
+    "人机对齐",
+    "教育技术",
+    "BERT"
+   ],
+   "field": "自动文本评分与可解释AI",
+   "innovations": [
+    "首次系统比较BERT自注意力权重与人类评分员重要词语标注的Jaccard重合度",
+    "揭示评分不一致时DL与人类仍存在约0.25的词语级对齐现象",
+    "证明高亮DL检测词语可将人类评分QWK从0.71提升至0.74"
+   ],
+   "benchmarks": [
+    "Hewlett Foundation ASAS Dataset",
+    "Quadratic Weighted Kappa"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Cheat-Codes-to-Quantify-Missing-Source-Information-in-Neural",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/442051d2-6515-4a1f-9808-3bd201a638c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/442051d2-6515-4a1f-9808-3bd201a638c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:53:41",
+  "chunks": 1
+ }
 }

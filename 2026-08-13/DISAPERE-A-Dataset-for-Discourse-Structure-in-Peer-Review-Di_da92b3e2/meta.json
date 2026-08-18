@@ -4,5 +4,32 @@
  "title": "DISAPERE-A-Dataset-for-Discourse-Structure-in-Peer-Review-Di",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03b492c5-6b04-4327-8f8c-2038ebb9501e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03b492c5-6b04-4327-8f8c-2038ebb9501e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "peer review",
+    "discourse structure",
+    "argument mining",
+    "academic publishing",
+    "text annotation",
+    "review-rebuttal interaction"
+   ],
+   "field": "学术文本分析",
+   "innovations": [
+    "首个 sentence-level peer review discourse 数据集",
+    "14类 rebuttal action 标签体系与多对多 context 标注",
+    "agreeability 指标用于识别争议性评审"
+   ],
+   "benchmarks": [
+    "AMPERE",
+    "AMSR",
+    "ASAP-Review",
+    "APE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Context-Aware-Abbreviation-Expansion-Using-Large-Language-Mo",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9dec462a-7dae-47d6-aec7-9888951922ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9dec462a-7dae-47d6-aec7-9888951922ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "缩写扩展",
+    "大型语言模型",
+    "辅助沟通",
+    "键位节省率",
+    "对话上下文",
+    "噪声鲁棒性",
+    "微调",
+    "零样本提示"
+   ],
+   "field": "辅助沟通与文本输入",
+   "innovations": [
+    "提出面向对话的高KSR首字母缩写方案并验证LLM结合上下文的扩展能力",
+    "系统比较零样本、少样本与微调方法并揭示上下文对长缩写的增益",
+    "设计眼动打字噪声模拟方法并通过噪声微调显著提升模型鲁棒性"
+   ],
+   "benchmarks": [
+    "TDC",
+    "DDC",
+    "CMD",
+    "TMSD"
+   ]
+  }
+ }
 }

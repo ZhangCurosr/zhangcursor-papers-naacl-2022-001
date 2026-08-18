@@ -4,5 +4,34 @@
  "title": "AnswerSumm-A-Manually-Curated-Dataset-and-Pipeline-for-Answe",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d299e69-3090-4b47-b9de-bbffeb637beb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d299e69-3090-4b47-b9de-bbffeb637beb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:51:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Answer Summarization",
+    "Multi-perspective Summarization",
+    "Community Question Answering",
+    "Data Augmentation",
+    "Reinforcement Learning",
+    "Abstractive Summarization",
+    "NLI",
+    "Semantic Coverage"
+   ],
+   "field": "多视角文本摘要",
+   "innovations": [
+    "首个大规模人工标注多视角CQA摘要数据集（4631条），分解为四个子任务提供细粒度标注",
+    "基于聚类centroid去除的无监督数据增强流水线，自动从130k StackExchange线程生成银标签多视角摘要",
+    "引入Semantic Area作为多视角覆盖度的RL奖励，结合NLI忠实度奖励进行多目标优化"
+   ],
+   "benchmarks": [
+    "AnswerSumm",
+    "CQASumm",
+    "XSum",
+    "CNN/DailyMail"
+   ]
+  }
+ }
 }

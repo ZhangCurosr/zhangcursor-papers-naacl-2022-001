@@ -4,5 +4,30 @@
  "title": "Data-Augmentation-with-Dual-Training-for-Offensive-Span-Dete",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f935316b-60d4-4ca1-96bd-eaaad081609f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f935316b-60d4-4ca1-96bd-eaaad081609f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "offensive span detection",
+    "data augmentation",
+    "dual training",
+    "REINFORCE",
+    "GPT-2",
+    "sequence labeling",
+    "toxic span detection"
+   ],
+   "field": "弱监督数据增强与序列标注",
+   "innovations": [
+    "提出基于GPT-2与REINFORCE双训练的生成式数据增强方法，将下游任务F1作为有用性奖励",
+    "在生成文本中引入OFFENSIVE_S/E特殊token实现端到端标注生成",
+    "在SemEval 2021 Task 5上以简单基模型取得SOTA（F1 73.27，超原SOTA 2.44点）"
+   ],
+   "benchmarks": [
+    "SemEval 2021 Task 5"
+   ]
+  }
+ }
 }

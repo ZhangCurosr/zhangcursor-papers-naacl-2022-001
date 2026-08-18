@@ -4,5 +4,10 @@
  "title": "A-Robustly-Optimized-BMRC-for-Aspect-Sentiment-Triplet-Extra",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/59af4bc0-d896-4e8c-8aee-333b1b8ad237.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/59af4bc0-d896-4e8c-8aee-333b1b8ad237.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:49:46",
+  "chunks": 1
+ }
 }
